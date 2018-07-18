@@ -34,6 +34,7 @@
             this.beginBtn = new System.Windows.Forms.Button();
             this.endBtn = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // InterTxb
@@ -91,11 +92,22 @@
             this.label2.TabIndex = 3;
             this.label2.Text = "Interval Default:5 seconds";
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(404, 228);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(112, 15);
+            this.label3.TabIndex = 4;
+            this.label3.Text = "伍亦勤（知乎）";
+            this.label3.Visible = false;
+            // 
             // GameReminder
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(546, 246);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.endBtn);
             this.Controls.Add(this.beginBtn);
@@ -118,6 +130,7 @@
         private System.Windows.Forms.Button beginBtn;
         private System.Windows.Forms.Button endBtn;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
     }
 }
 

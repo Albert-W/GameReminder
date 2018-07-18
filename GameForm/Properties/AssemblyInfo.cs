@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // 有关程序集的一般信息由以下
 // 控制。更改这些特性值可修改
 // 与程序集关联的信息。
-[assembly: AssemblyTitle("GameForm")]
+[assembly: AssemblyTitle("GameReminder")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("GameForm")]
-[assembly: AssemblyCopyright("Copyright ©  2018")]
+[assembly: AssemblyProduct("GameReminder")]
+[assembly: AssemblyCopyright("Copyright ©  伍亦勤（知乎）2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

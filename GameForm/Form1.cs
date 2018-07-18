@@ -30,6 +30,7 @@ namespace GameForm
                 GameThread = new Thread(beep);
                 GameThread.Start();
             }
+            label3.Visible = false;
 
             
  //           while (flag)
@@ -55,6 +56,7 @@ namespace GameForm
             flag = false;
             //GameThread.Interrupt();
             GameThread = null;
+            label3.Visible = true;
         }
 
         private void InterTxb_TextChanged(object sender, EventArgs e)
@@ -78,5 +80,6 @@ namespace GameForm
             flag = false;
             GameThread = null;
         }
+
     }
 }
